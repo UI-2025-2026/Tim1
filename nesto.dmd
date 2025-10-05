@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="nesto" id="B50D155C-03F0-DD26-5356-841E9ACF05B9" version="3.5">
-<createdBy>milos</createdBy>
-<createdTime>2025-09-29 06:52:07 UTC</createdTime>
-<ownerDesignName>nesto</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>B50D155C-03F0-DD26-5356-841E9ACF05B9</designId>
-</OSDM_Design>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE2C2FC2-9D9A-CF6A-1FEF-5B565C4EE682" name="Apartments">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 11:28:55 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>CBBC772A-769F-7AA2-A1BD-DBC80EFBFF49</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="4FA9A866-9542-67F5-6580-EB48DC4AFD1F">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 11:29:06 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adress" id="DE4D7F1E-2EED-439D-DA6F-74D5D354E850">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 12:01:14 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="D0B087C2-9DEC-7FEF-D3E2-0B482BAD9CC3">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 12:08:38 UTC</createdTime>
+<generatorID>36AE03B1-6A59-33A4-7061-81F4E9F2CEBD</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+</engineerTo>
+<referedAttribute>C75A530B-9BB2-F9A8-E7A2-F76E5870ECDB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Surname" id="9B5D6174-D6B5-A8CB-1000-422457E6EB9C">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 12:08:38 UTC</createdTime>
+<generatorID>36AE03B1-6A59-33A4-7061-81F4E9F2CEBD</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+</engineerTo>
+<referedAttribute>CC36E26E-FA8B-BEA5-D650-12966DACA47A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7F0A2F9E-74B0-7CFD-ECDE-9DB4F352A75A" name="Apartments PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 11:29:10 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4FA9A866-9542-67F5-6580-EB48DC4AFD1F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

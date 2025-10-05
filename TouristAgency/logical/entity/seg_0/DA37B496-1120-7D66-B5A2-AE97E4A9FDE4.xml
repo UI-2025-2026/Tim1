@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA37B496-1120-7D66-B5A2-AE97E4A9FDE4" name="Train_Trips">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 12:22:07 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>A537B9CF-3E8E-6EE2-8C06-1CCD9EE56081</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C194A782-9E6E-E0E2-DCC0-9E630826C60A">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 12:22:40 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="39480354-CE39-9417-8A38-E96F3E2536DB" name="Train_Trips PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 12:22:47 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C194A782-9E6E-E0E2-DCC0-9E630826C60A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

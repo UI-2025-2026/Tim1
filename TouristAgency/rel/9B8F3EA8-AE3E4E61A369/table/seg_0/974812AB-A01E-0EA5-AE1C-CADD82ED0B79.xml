@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="974812AB-A01E-0EA5-AE1C-CADD82ED0B79" name="Train_Trips">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 12:25:19 UTC</createdTime>
+<generatorID>DA37B496-1120-7D66-B5A2-AE97E4A9FDE4</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B81C4FE7-C4B2-0A37-A10C-B56959F25444">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 12:25:19 UTC</createdTime>
+<generatorID>C1F1FE98-6700-C2D6-7C69-B66E7974D14B</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEAE390D-84FF-A43E-8F4D-AF52C652E275" referredColumn="5A614CFA-6FDD-5658-7CB3-B14A24E4B9BC"/>
+</associations>
+</Column>
+<Column name="id1" id="E7FFE6F0-4B2A-3D52-8E56-C0B34F47F8C1">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 12:25:19 UTC</createdTime>
+<generatorID>C194A782-9E6E-E0E2-DCC0-9E630826C60A</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="636EC015-4E82-229A-68CD-51AF52912039" name="Train_Trips_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 12:25:19 UTC</createdTime>
+<generatorID>853711F9-B0E4-7EE4-2A6E-D76228FE3DAB</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B81C4FE7-C4B2-0A37-A10C-B56959F25444"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81040769-D78C-6F0A-1257-088889A660E8" name="Train_Trips_PKv1">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 12:25:19 UTC</createdTime>
+<generatorID>39480354-CE39-9417-8A38-E96F3E2536DB</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7FFE6F0-4B2A-3D52-8E56-C0B34F47F8C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8E3BA0D-7957-3C8D-6866-A2470DDAAA4B" name="Train_Trips_Transportations_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 12:25:19 UTC</createdTime>
+<generatorID>991EB249-F71E-D8CC-8D18-55D9C362DCB6</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B81C4FE7-C4B2-0A37-A10C-B56959F25444"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

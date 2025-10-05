@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="197E96BF-CD3B-998E-F213-D0F60DB6BDF8" mainViewID="D4312E52-C837-8B05-22D8-03B5F8E5E2A0">
-<createdBy>milos</createdBy>
-<createdTime>2025-09-29 06:52:07 UTC</createdTime>
-<ownerDesignName>nesto</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>

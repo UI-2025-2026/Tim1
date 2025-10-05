@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3367C4B-722D-840B-6AC1-A24880BFD32C" name="Rooms">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 11:23:15 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>CBBC772A-769F-7AA2-A1BD-DBC80EFBFF49</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="1794B8D6-2B99-D138-5DC1-FA9712EDC6A9">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 11:23:21 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="BD564471-AA5C-729D-89FB-297A29094960">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 11:24:38 UTC</createdTime>
+<generatorID>F7F82EC3-2F50-06C7-34E3-A8509E9AE3C2</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+</engineerTo>
+<referedAttribute>0D29490D-D1B0-C548-C365-2122E2B97B80</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Room_Number" id="F86D2EC7-A478-6B36-282B-027774D04C39">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 11:26:52 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="305EAD01-F89A-8212-68BC-0B43DDBF2E94" name="Rooms PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-05 11:23:27 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1794B8D6-2B99-D138-5DC1-FA9712EDC6A9</attributeRef>
+<attributeRef>BD564471-AA5C-729D-89FB-297A29094960</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
