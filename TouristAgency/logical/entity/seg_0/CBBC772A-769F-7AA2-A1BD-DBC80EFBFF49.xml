@@ -4,7 +4,7 @@
 <createdTime>2025-10-05 11:33:31 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2025-10-05 11:34:18 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,19 @@
 <createdTime>2025-10-05 11:34:52 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="0F042C2C-5DAF-FEC5-7665-88488A75872B">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 16:44:14 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,7 +59,7 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="false"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

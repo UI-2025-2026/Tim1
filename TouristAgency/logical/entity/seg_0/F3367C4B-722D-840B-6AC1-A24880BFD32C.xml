@@ -1,17 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3367C4B-722D-840B-6AC1-A24880BFD32C" name="Rooms">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3367C4B-722D-840B-6AC1-A24880BFD32C" name="Accommodation_Unit">
 <createdBy>Luka</createdBy>
 <createdTime>2025-10-05 11:23:15 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>CBBC772A-769F-7AA2-A1BD-DBC80EFBFF49</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
@@ -21,22 +20,8 @@
 <createdTime>2025-10-05 11:23:21 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id1" id="BD564471-AA5C-729D-89FB-297A29094960">
-<createdBy>Luka</createdBy>
-<createdTime>2025-10-05 11:24:38 UTC</createdTime>
-<generatorID>F7F82EC3-2F50-06C7-34E3-A8509E9AE3C2</generatorID>
-<ownerDesignName>TouristAgency</ownerDesignName>
-<engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
-</engineerTo>
-<referedAttribute>0D29490D-D1B0-C548-C365-2122E2B97B80</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -47,11 +32,37 @@
 <createdTime>2025-10-05 11:26:52 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="3DC0F941-AD89-A16E-8309-524C50115F34">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 16:43:34 UTC</createdTime>
+<generatorID>D9C8231A-A8FA-D913-8EED-154828CF179C</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+</engineerTo>
+<referedAttribute>0D0FF60D-1F91-FE71-9B38-3FB98F570476</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="BA507B78-A6DE-37F8-1AAA-F4322D8DBD8D">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 16:45:05 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -62,12 +73,11 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="false"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>1794B8D6-2B99-D138-5DC1-FA9712EDC6A9</attributeRef>
-<attributeRef>BD564471-AA5C-729D-89FB-297A29094960</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

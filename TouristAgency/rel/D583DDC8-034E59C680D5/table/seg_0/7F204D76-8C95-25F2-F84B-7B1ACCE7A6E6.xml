@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F204D76-8C95-25F2-F84B-7B1ACCE7A6E6" name="Transportations">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 17:10:52 UTC</createdTime>
+<generatorID>A537B9CF-3E8E-6EE2-8C06-1CCD9EE56081</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="EEC3A64F-8AF7-4BD8-0BB2-89FC0E4AFEDD">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 17:10:52 UTC</createdTime>
+<generatorID>C1F1FE98-6700-C2D6-7C69-B66E7974D14B</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Start_Adress" id="034FF4DF-71E8-807B-33F5-E47BDBDDF1DD">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 17:10:52 UTC</createdTime>
+<generatorID>450007F4-3D27-B257-3965-E21C373DDC02</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="End_Adress" id="51DEB910-64A5-D4DB-6763-1A3EE0E7C13B">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 17:10:52 UTC</createdTime>
+<generatorID>CF22C324-52E9-F5C9-82DF-8CE665EDEEA5</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Start_Time" id="C359D6F4-1C5C-9C14-C68C-372D6F8A6DAC">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 17:10:52 UTC</createdTime>
+<generatorID>6796C1A7-A683-6046-DEE4-9EFDB253FFB8</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="End_Time" id="81046522-082F-27CF-54B4-B5C9DE81BD7A">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 17:10:52 UTC</createdTime>
+<generatorID>8A756071-F2FA-F432-D8CD-B21DAB3A5E1E</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E1E039B-1CF2-8ED1-006E-CDD2641C5C16" name="Transportations_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 17:10:52 UTC</createdTime>
+<generatorID>853711F9-B0E4-7EE4-2A6E-D76228FE3DAB</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEC3A64F-8AF7-4BD8-0BB2-89FC0E4AFEDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

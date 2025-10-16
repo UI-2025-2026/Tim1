@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF752C4E-AFA1-EA53-7985-1641A5850217" name="Boat_Ticket">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 18:01:07 UTC</createdTime>
+<generatorID>3A89424A-A2F1-36AD-9E31-AA5E0EB74CDF</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="EB115E7B-0C3A-A411-2C79-379E9353103D">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 18:01:07 UTC</createdTime>
+<generatorID>EDA7BC62-2CF1-0AA5-4D27-EEE2D4A9DDD6</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Baggage_Info" id="4AEDBC50-3B14-6135-12DD-7632BEF5E60A">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 18:01:07 UTC</createdTime>
+<generatorID>68C8BD1E-F2C4-5782-E907-8C46FD3FC0B7</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Boat_Trip_id2" id="3EAD6249-347B-1D20-77F7-698803764647">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 18:01:07 UTC</createdTime>
+<generatorID>225DCD7C-2E98-DF33-7347-0E7743DCFBD2</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD49CDC0-3D41-7BDE-DB61-3F556C2FD7BF" referredColumn="786B32FA-4DFF-2BDC-CFED-51213DD4DAF2"/>
+</associations>
+</Column>
+<Column name="Consumer_id" id="1A679A27-637F-E270-18A3-6C77A942A81A">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 18:01:07 UTC</createdTime>
+<generatorID>6EA40D26-5F1F-7F49-1BA2-87D3D0551D43</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F0B6972-3512-8ED9-0904-244184F1702A" referredColumn="1E479999-D16C-72EE-1093-A28A6901FCFD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E196D923-BA49-95AF-3A43-1979F5C998F4" name="Boat_Ticket_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 18:01:07 UTC</createdTime>
+<generatorID>7292FDF1-CBF1-E5E6-D142-3364CAAAF18F</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB115E7B-0C3A-A411-2C79-379E9353103D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D30F61E-203F-397C-CFD1-4B7B39210CC4" name="Boat_Ticket_Boat_Trip_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 18:01:07 UTC</createdTime>
+<generatorID>C5768FCA-8C89-B62E-9F8A-9D4CFED5898E</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EAD6249-347B-1D20-77F7-698803764647"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60260C9C-EBA3-125D-4804-E14E415B0E86" name="Boat_Ticket_Consumer_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 18:01:07 UTC</createdTime>
+<generatorID>D574050A-5A72-A851-9908-006B596CB70A</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A679A27-637F-E270-18A3-6C77A942A81A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

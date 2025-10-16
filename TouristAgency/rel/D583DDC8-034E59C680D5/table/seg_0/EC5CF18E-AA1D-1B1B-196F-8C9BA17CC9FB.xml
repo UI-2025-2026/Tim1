@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC5CF18E-AA1D-1B1B-196F-8C9BA17CC9FB" name="Payments">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 17:10:52 UTC</createdTime>
+<generatorID>EA4A0941-E68C-F2CF-8DDD-CF2C67EA9B4B</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6769DDDD-EC1B-BA7F-C787-ABF45842CF11">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 17:10:52 UTC</createdTime>
+<generatorID>58E3C807-3866-4303-7E8B-B10459789AC5</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type" id="78A458FC-0656-D85D-7A2A-9102D8679A87">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 17:10:52 UTC</createdTime>
+<generatorID>96AD607F-C68D-0A2B-200E-4D0C6964C879</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="F9EECFD4-45BD-DE6C-4768-882826EA1D74">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 17:10:52 UTC</createdTime>
+<generatorID>3D1F65DC-53D9-C780-532E-7D5099A007BD</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Number_Of_Installments" id="4EAABB45-27AE-1252-FAFF-64857F756716">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 17:10:52 UTC</createdTime>
+<generatorID>9DD1A271-10A7-EED1-A03A-120749DB7C14</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Due_Date" id="E110CDD9-7D17-659B-309D-AF295225EBDD">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 17:10:52 UTC</createdTime>
+<generatorID>A803ABE3-9F16-F95B-979A-E124A7746BF1</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FAFA83B-1C92-5668-FFB0-599A935EFEA8" name="Payments_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 17:10:52 UTC</createdTime>
+<generatorID>4386AD95-6A67-5801-7095-9F9AAA57DFFF</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6769DDDD-EC1B-BA7F-C787-ABF45842CF11"/>
+<colUsage columnID="78A458FC-0656-D85D-7A2A-9102D8679A87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

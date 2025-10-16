@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Railway_Station_Departure" directorySegmentName="seg_0" id="AA8A9ECE-AB6D-08FD-BFA0-EC857D4E5AFB">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 17:55:41 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+</engineerTo>
+<sourcePk>27FA971B-E552-A71E-2102-EE9A94DADBD1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>13DB33C2-E4F4-C3AD-8632-6C67112DAAAC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DA37B496-1120-7D66-B5A2-AE97E4A9FDE4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

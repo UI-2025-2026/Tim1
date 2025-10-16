@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5DC146CD-87DC-D133-0424-D30DE1FCBEAC" name="Users">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5DC146CD-87DC-D133-0424-D30DE1FCBEAC" name="Consumer">
 <createdBy>Luka</createdBy>
 <createdTime>2025-10-05 11:43:58 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2025-10-05 11:44:04 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2025-10-05 11:44:38 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2025-10-05 11:45:20 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,7 +58,7 @@
 <createdTime>2025-10-05 11:45:31 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -72,7 +72,7 @@
 <createdTime>2025-10-05 11:45:40 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -89,7 +89,7 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="false"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -4,7 +4,7 @@
 <createdTime>2025-10-05 12:22:07 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,8 +21,36 @@
 <createdTime>2025-10-05 12:22:40 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="CCE6E028-FFDF-29A5-0FED-6EADA44FB89B">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 17:55:41 UTC</createdTime>
+<generatorID>AA8A9ECE-AB6D-08FD-BFA0-EC857D4E5AFB</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+</engineerTo>
+<referedAttribute>7727FE31-83A3-591F-BB0D-AFE11C74D9F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="72D9EAF8-05C4-DB5E-7560-2E8E15CE4C51">
+<createdBy>Luka</createdBy>
+<createdTime>2025-10-16 17:56:03 UTC</createdTime>
+<generatorID>82B14337-2783-AA92-38AB-91CE9A66638E</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+</engineerTo>
+<referedAttribute>7727FE31-83A3-591F-BB0D-AFE11C74D9F4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -35,7 +63,7 @@
 <createdTime>2025-10-05 12:22:47 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="9B8F3EA8-64B5-270A-D892-AE3E4E61A369" value="true"/>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
