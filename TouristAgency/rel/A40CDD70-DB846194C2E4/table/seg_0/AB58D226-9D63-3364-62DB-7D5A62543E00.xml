@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB58D226-9D63-3364-62DB-7D5A62543E00" name="Interaction_Type">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:21:44 UTC</createdTime>
+<generatorID>3EF86AFA-12E7-3BDE-7541-D8CBEFC33AFA</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CB26AE7D-C2B7-873A-520F-19704DF38ACE">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:21:44 UTC</createdTime>
+<generatorID>193E1D8F-E3AD-656B-0FC1-E65BBA8A0A75</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="45A948F0-D23A-C914-CBC6-431C15CE02B2">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:21:44 UTC</createdTime>
+<generatorID>4F3F7999-CC3C-D82E-E5DD-DD64054059AF</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECAF153B-652D-00E2-99A9-96202CAFFEE6" name="Interaction_Type_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:21:44 UTC</createdTime>
+<generatorID>5B58EC29-4D2A-E483-5947-CF616576D495</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB26AE7D-C2B7-873A-520F-19704DF38ACE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

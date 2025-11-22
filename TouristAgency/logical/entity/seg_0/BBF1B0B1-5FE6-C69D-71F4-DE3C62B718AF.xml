@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBF1B0B1-5FE6-C69D-71F4-DE3C62B718AF" name="Trip_Arrangement_Types">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:05:25 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="0A433761-3BFD-E73F-9D91-F8C171462DD7">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:05:33 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="1DB98B92-D755-BA05-C38D-2DC0C473492F">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:05:45 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="65F00360-AD14-C482-2F21-3F36B2E7176E" name="Trip_Types PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:05:53 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0A433761-3BFD-E73F-9D91-F8C171462DD7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

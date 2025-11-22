@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B6DFA06-717E-E426-A547-D94BC5A033DC" name="Trips">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B6DFA06-717E-E426-A547-D94BC5A033DC" name="Trip_Arrangement">
 <createdBy>Luka</createdBy>
 <createdTime>2025-10-16 17:10:52 UTC</createdTime>
 <generatorID>DB37F029-8BAC-3521-BCE0-F626C7B5BE86</generatorID>
@@ -89,6 +89,21 @@
 <colAssociation fkAssociation="61F66C69-3354-888F-546C-6E5B8F62BA28" referredColumn="E97AB9EE-1E76-C958-E930-A014EAFD1FDD"/>
 </associations>
 </Column>
+<Column name="Trip_Arrangement_Types_id" id="A54105AA-4F0C-762F-C3C4-78946DCE0056">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>5D23226C-5F05-014A-3BE6-0E89A7C42A82</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1866EDF-D505-C2E7-7F92-CD475C3B92E8" referredColumn="E335AFFE-76D2-3EA1-456C-32301A6FDEF6"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1F0865F7-B7B7-812F-B71C-7E267A506450" name="Trips_PK">
@@ -113,6 +128,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AAC8F7EA-522B-0813-D2F1-72CE0C794700"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06BA9C87-7875-DB27-2372-1CAC7066C8AF" name="Trip_Arrangement_Trip_Arrangement_Types_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>1F98E38B-031F-3827-91DB-614C0EFE4B0E</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A54105AA-4F0C-762F-C3C4-78946DCE0056"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

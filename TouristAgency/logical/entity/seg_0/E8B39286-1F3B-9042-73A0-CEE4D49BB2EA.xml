@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8B39286-1F3B-9042-73A0-CEE4D49BB2EA" name="Employee_Permissions">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:18:49 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="23EB441D-688F-D4CF-87AB-35716137F0A3">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:19:40 UTC</createdTime>
+<generatorID>72ABA79D-DBCA-6ABF-EF85-BA2F060033D9</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<referedAttribute>5545F897-DE35-FCC4-9635-C563E002EE21</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="19F557A8-9EE4-A382-31AA-D9BD7DA3B15D">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:19:44 UTC</createdTime>
+<generatorID>CC1F5940-4247-A891-C1B8-9678DBED97F4</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<referedAttribute>139F0DBF-51A6-7A6B-13BF-D237F2D3B283</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03A470C3-34BE-84CC-18CD-39FA4534049B" name="Employee_Permissions PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:19:40 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>23EB441D-688F-D4CF-87AB-35716137F0A3</attributeRef>
+<attributeRef>19F557A8-9EE4-A382-31AA-D9BD7DA3B15D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

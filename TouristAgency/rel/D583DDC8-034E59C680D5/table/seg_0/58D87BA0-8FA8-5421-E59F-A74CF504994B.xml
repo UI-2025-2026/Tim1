@@ -41,6 +41,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Accomodation_Types_id" id="38857194-4BCF-2836-C3B2-1AD3EEDBFA1B">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>5DEF4EB4-FBA8-586B-6B12-1491843D1688</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9076EB03-43FD-8F17-43C9-CBC4D060487F" referredColumn="C0DAE01B-0ED7-5108-66F0-4D1CF877AD1C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E8C8ABCC-B117-EDBD-44B5-1BEACBC45E9F" name="Accommodations_PK">
@@ -53,6 +68,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3E102D72-2C65-CC16-C06B-A7F5ECBB2F79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE62BC1A-8C3B-0E3B-06E1-939354A64901" name="Accommodations_Accomodation_Types_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>C4A3A3C6-E7DB-6969-7238-946AB3D2C98E</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38857194-4BCF-2836-C3B2-1AD3EEDBFA1B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

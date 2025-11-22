@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAAA627A-30E7-16C8-8723-D5178B4CE608" name="Payment_Types">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:10:28 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9B5B1CCF-3132-CADC-B7B5-9F5636640834">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:10:34 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="5514F623-F940-FFEA-7BF8-6B1206CB33CA">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:11:03 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2CEACB4-C63F-47E0-13BF-F09709FE3CC3" name="Payment_Types PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:10:40 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9B5B1CCF-3132-CADC-B7B5-9F5636640834</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

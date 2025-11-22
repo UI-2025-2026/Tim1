@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FDDE952-CFE5-3BB7-5D0E-5CF3674EA7B2" name="Bus_Companies">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:25:01 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="6E5C907A-44C5-70EC-7E1E-1487249998C5">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:25:09 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="0002B823-4794-1D28-1CE8-C9E09823DDF6">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:25:15 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0705B0CC-1708-5863-328E-0AD14A71CF01" name="Bus_Company PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:25:27 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E5C907A-44C5-70EC-7E1E-1487249998C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

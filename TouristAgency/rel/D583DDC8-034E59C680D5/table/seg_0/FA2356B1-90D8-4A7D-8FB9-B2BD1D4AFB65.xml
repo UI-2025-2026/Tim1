@@ -71,6 +71,81 @@
 <colAssociation fkAssociation="D6EDDDD9-8018-06A1-587C-9D84FF03A6AD" referredColumn="1E479999-D16C-72EE-1093-A28A6901FCFD"/>
 </associations>
 </Column>
+<Column name="Train_Trip_id" id="AEEB7B66-7572-FAA5-9152-1457E1FFB1E3">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>B180831B-F164-80D5-E88C-18566F98C339</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A25728DA-35B6-D3D0-0AAE-3A4FC33EE805" referredColumn="BE1263C8-DD7B-F14D-C5C8-E01562794E9E"/>
+</associations>
+</Column>
+<Column name="Trip_Reservations_id" id="B036C242-0015-5C8F-D9A1-D5069E696072">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>223E66E5-4042-439B-A74E-13D0A4CBE537</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FFE887C-A642-EE99-FFCF-083AEBC5515D" referredColumn="5F62F3E9-4025-EF63-AE0B-FC788F4313B8"/>
+</associations>
+</Column>
+<Column name="Trip_Reservations_Trips_id" id="BD968D98-459A-7DB8-B9EE-106B7A42F417">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>18C3F8DF-4B88-0B6B-7331-56BFE3030560</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FFE887C-A642-EE99-FFCF-083AEBC5515D" referredColumn="6869BBB9-C9C1-C419-21C7-554E90906AB0"/>
+</associations>
+</Column>
+<Column name="Trip_Reservations_Trips_Agents_id" id="9180547B-CCDF-6DC7-45F7-CD3752592F5D">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>17F928AF-53CB-2BA0-4E77-412CD698E570</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FFE887C-A642-EE99-FFCF-083AEBC5515D" referredColumn="A55F5BBE-78E8-0F74-EBC0-BD591C690EC7"/>
+</associations>
+</Column>
+<Column name="Trip_Reservations_Agents_id" id="6A6013C3-7AA0-4726-E324-5CD732FE42FE">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>D17E2A0B-C52C-3893-2515-5C451FFACB98</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FFE887C-A642-EE99-FFCF-083AEBC5515D" referredColumn="8C300E9B-B555-B55B-EF72-011A0E8E7A47"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1F0E6AE5-D331-AAE5-5B1A-231552E16540" name="Train_Tickets_PK">
@@ -105,6 +180,31 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8EDC33B8-547F-3E51-5EC6-A9A07320C80A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9E9A046-920E-1A94-DC34-4064DEFFABEE" name="Train_Tickets_Train_Trip_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>D48459C8-82E7-B3ED-C578-8DD06CFAB34E</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEEB7B66-7572-FAA5-9152-1457E1FFB1E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63632574-6A81-CF86-23C5-0A61A726AD32" name="Train_Tickets_Trip_Reservations_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>DE6AF2C1-02D8-144C-E091-2C5EF6F1BE60</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B036C242-0015-5C8F-D9A1-D5069E696072"/>
+<colUsage columnID="BD968D98-459A-7DB8-B9EE-106B7A42F417"/>
+<colUsage columnID="9180547B-CCDF-6DC7-45F7-CD3752592F5D"/>
+<colUsage columnID="6A6013C3-7AA0-4726-E324-5CD732FE42FE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

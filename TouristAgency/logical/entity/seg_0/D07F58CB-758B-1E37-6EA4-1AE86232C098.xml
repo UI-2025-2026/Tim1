@@ -5,6 +5,7 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
 <item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,6 +22,7 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
 <item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,6 +35,7 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
 <item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,6 +48,7 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
 <item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,6 +61,7 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
 <item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,6 +75,7 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
 <item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
 </engineerTo>
 <referedAttribute>0D0FF60D-1F91-FE71-9B38-3FB98F570476</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -84,6 +90,7 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
 <item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
 </engineerTo>
 <referedAttribute>51ABC90C-18D5-052B-6917-6F1D46DCA1F6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -98,6 +105,7 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
 <item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
 </engineerTo>
 <referedAttribute>1380CD9F-19C0-B806-7C43-4284A097B266</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -112,6 +120,7 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
 <item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
 </engineerTo>
 <referedAttribute>412707EF-6664-76C6-66CF-6E91C3199D41</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -126,8 +135,24 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
 <item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
 </engineerTo>
 <referedAttribute>884B6269-8E8A-C222-3991-FC35C9EACBE3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id5" id="10379DDC-B375-90B1-5BBB-B53DF987E950">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 11:58:28 UTC</createdTime>
+<generatorID>8EAEE8F9-4CAE-FB22-9D07-0C46A0628B8A</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<referedAttribute>847E9FCD-0DD3-7BBE-A1BD-AEEE4E65FB72</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -142,6 +167,7 @@
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="false"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

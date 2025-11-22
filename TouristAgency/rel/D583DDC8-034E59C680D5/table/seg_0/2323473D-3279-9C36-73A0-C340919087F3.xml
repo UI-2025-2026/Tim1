@@ -18,9 +18,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="96A72FFA-DAD5-5F35-7A6A-4584575167CD" referredColumn="EEC3A64F-8AF7-4BD8-0BB2-89FC0E4AFEDD"/>
-</associations>
 </Column>
 <Column name="id2" id="786B32FA-4DFF-2BDC-CFED-51213DD4DAF2">
 <createdBy>Luka</createdBy>
@@ -86,17 +83,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="786B32FA-4DFF-2BDC-CFED-51213DD4DAF2"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="2222DE20-1F12-B0B7-CEF1-C4098264CF7A" name="Boat_Trip_Transportations_FK">
-<createdBy>Luka</createdBy>
-<createdTime>2025-10-16 17:10:52 UTC</createdTime>
-<generatorID>2BDEB5DE-3E82-CE53-9F19-64E654B74834</generatorID>
-<ownerDesignName>TouristAgency</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="BBCBDFC1-5217-86EA-004A-C6880E24BDC3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="7A2A5EE0-4F4A-EA4A-081B-D4BF8F679001" name="Boat_Trip_Ports_FK">

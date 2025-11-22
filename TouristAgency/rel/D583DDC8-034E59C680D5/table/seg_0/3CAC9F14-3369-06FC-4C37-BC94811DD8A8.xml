@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CAC9F14-3369-06FC-4C37-BC94811DD8A8" name="Contact_Infromation">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CAC9F14-3369-06FC-4C37-BC94811DD8A8" name="Customer_Interactions">
 <createdBy>Luka</createdBy>
 <createdTime>2025-10-16 17:35:06 UTC</createdTime>
 <generatorID>29C82263-C98E-311D-7B39-1684C6342CF7</generatorID>
@@ -142,6 +142,21 @@
 <colAssociation fkAssociation="6FEC48B7-AE27-D94F-F118-A6441E5D12B0" referredColumn="8C300E9B-B555-B55B-EF72-011A0E8E7A47"/>
 </associations>
 </Column>
+<Column name="Interaction_Type_id" id="E40E5F4F-3DB0-E042-62BE-81CB8316DC1F">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>4F7B3A36-2FA2-4A81-EAED-048776CBF47B</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="570847B8-0B22-DCD3-4B5D-C689B7F5A7DA" referredColumn="8AFD4660-CAE6-E402-0655-038176D509D4"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="4CC6CA99-258E-DFC2-97FA-3290A534F9BB" name="Contact_Infromation_PK">
@@ -190,6 +205,17 @@
 <colUsage columnID="F8F088C0-1677-12A7-2075-97923C1E3EF4"/>
 <colUsage columnID="0122EE36-7057-5570-5A94-42F9EDA1F3A0"/>
 <colUsage columnID="184C9B4C-43A9-9007-D34B-806910883C47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9287762C-CC90-B249-8CBE-FC5D77C06240" name="Customer_Interactions_Interaction_Type_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>0DE7652C-4219-579C-967F-35691A15EE42</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E40E5F4F-3DB0-E042-62BE-81CB8316DC1F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

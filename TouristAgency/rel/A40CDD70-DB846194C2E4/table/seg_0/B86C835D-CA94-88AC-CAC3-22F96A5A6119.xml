@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B86C835D-CA94-88AC-CAC3-22F96A5A6119" name="Taxi_Trips">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:21:44 UTC</createdTime>
+<generatorID>618B2F71-8CA4-BA0B-21C8-B0D6D85006D7</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="05BBC526-5FF4-C2C8-7F45-179FC692354F">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:21:44 UTC</createdTime>
+<generatorID>FBA875E1-0651-E108-4907-4F0949B05454</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departure_Time" id="23895E96-F4D5-50E5-9646-6D962BEEF32C">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:21:44 UTC</createdTime>
+<generatorID>E07BB7F9-FE3E-6D3D-B5FC-6E73AD9DAC66</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Arrival_Time" id="9BD3FEDD-C443-8D11-3548-B6567A8C6603">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:21:44 UTC</createdTime>
+<generatorID>522452F1-558A-1A7A-1B3B-770167C5B5BF</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departure_Adress" id="2D91C261-30E3-0CD3-54F1-CA8300AF30F8">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:21:44 UTC</createdTime>
+<generatorID>4FCE9CEE-C445-662C-A7FD-73C5C2B2F307</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Arrival_Adress" id="7ED279C9-7415-04AF-0289-2D8BABEF445D">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:21:44 UTC</createdTime>
+<generatorID>AD60D8EE-FA7B-EA93-E411-7F9A3C91DA03</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Taxi_Number" id="00F57975-4E74-342B-C61E-0DD47717A9F1">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:21:44 UTC</createdTime>
+<generatorID>ABD94A33-CC98-1286-E1FE-053BA908C4BF</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Taxi_Companies_id" id="6C1D44B0-A462-AAEC-BCAF-1268E05EBDD0">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:32:14 UTC</createdTime>
+<generatorID>8661C9D6-D2A5-DD0C-4E2D-36CC3739320F</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B9806E2-F83A-65A8-037C-F3A2B965220E" referredColumn="D8DC8E82-B5B2-A44A-959F-BF26A44235E2"/>
+</associations>
+</Column>
+<Column name="Taxi_Drivers_id" id="C72A103D-923B-618F-68E5-A150107EB3CD">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:32:14 UTC</createdTime>
+<generatorID>135DFD9A-10AA-0AED-504D-206610726CA1</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E0FAE80-AB17-E24F-B4C0-31488DF9D5A2" referredColumn="51994652-92C8-9444-4767-872DE8D09E8E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94E3FEEB-1DEC-0A35-D788-0A1BCA7AE8FA" name="Taxi_Trips_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:21:44 UTC</createdTime>
+<generatorID>E8B7F3C6-6F75-5994-5D00-BD246368C32D</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05BBC526-5FF4-C2C8-7F45-179FC692354F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0FCECDC-6BBF-51C1-7D82-598E05725CA2" name="Taxi_Trips_Taxi_Companies_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:32:14 UTC</createdTime>
+<generatorID>711479D5-6E3F-C0E8-4D6C-704903A5517A</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C1D44B0-A462-AAEC-BCAF-1268E05EBDD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="489C29EA-077A-9A0A-1723-41FC862861F3" name="Taxi_Trips_Taxi_Drivers_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:32:14 UTC</createdTime>
+<generatorID>52BBB338-2DF8-FF9B-506D-70B9DFB690D9</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C72A103D-923B-618F-68E5-A150107EB3CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

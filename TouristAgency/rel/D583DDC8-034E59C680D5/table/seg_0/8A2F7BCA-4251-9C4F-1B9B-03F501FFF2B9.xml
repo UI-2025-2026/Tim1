@@ -127,6 +127,21 @@
 <colAssociation fkAssociation="440BF61C-C190-B028-91BB-15444312815B" referredColumn="A55F5BBE-78E8-0F74-EBC0-BD591C690EC7"/>
 </associations>
 </Column>
+<Column name="Accommodation_Contract_id" id="57AF227B-A0F4-2166-A85F-0A345235F620">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>10379DDC-B375-90B1-5BBB-B53DF987E950</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1D9A3F0-620F-F8D4-CEFA-7E701C85E51D" referredColumn="803B2CD3-6EF4-B8F6-110B-FBDBED8EC6E3"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="299F170F-9FEA-0A4D-E45D-23E7261ADCAB" name="Accommodation_Reservations_PK">
@@ -139,6 +154,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="61AB561A-18D2-AFB0-748D-E73536A806AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EA44FD4-1588-4C29-4983-256DABB4FAA0" name="Accommodation_Reservations__IDX">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8EAEE8F9-4CAE-FB22-9D07-0C46A0628B8A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="57AF227B-A0F4-2166-A85F-0A345235F620"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="F930A98D-4293-5AC1-889C-BFBAEA2ED54A" name="Accommodation_Reservations_Accommodations_FK">
@@ -164,6 +190,17 @@
 <colUsage columnID="F5F4100F-1B9B-E717-B5D2-E1EE470617E5"/>
 <colUsage columnID="8E480EA4-0288-8CBB-7187-3C304F093D18"/>
 <colUsage columnID="375D6E18-DB64-3153-033A-CAFD5F28ECAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C3DF1B7-A14F-A0EE-00B7-722CA3CC7B2C" name="Accommodation_Reservations_Accommodation_Contract_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>8EAEE8F9-4CAE-FB22-9D07-0C46A0628B8A</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57AF227B-A0F4-2166-A85F-0A345235F620"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

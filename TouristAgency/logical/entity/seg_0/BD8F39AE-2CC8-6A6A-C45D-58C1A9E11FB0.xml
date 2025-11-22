@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD8F39AE-2CC8-6A6A-C45D-58C1A9E11FB0" name="Accommodation_Contract">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 11:54:26 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="847E9FCD-0DD3-7BBE-A1BD-AEEE4E65FB72">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 11:54:35 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="A22CBA77-8B41-8E98-9C15-8850C5E22F9D">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:03:25 UTC</createdTime>
+<generatorID>63866554-DB30-E2C4-44B3-B6C30BA8182C</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<referedAttribute>C75A530B-9BB2-F9A8-E7A2-F76E5870ECDB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Surname" id="A59A8076-F9B6-5A8F-512F-8731CFDD31B7">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:03:25 UTC</createdTime>
+<generatorID>63866554-DB30-E2C4-44B3-B6C30BA8182C</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<referedAttribute>CC36E26E-FA8B-BEA5-D650-12966DACA47A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="C88D4F3C-0052-FCFA-9DC2-DB8DA2B5C2FC">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:04:53 UTC</createdTime>
+<generatorID>16821004-A6A5-FB4F-62D2-4C6AB47C06FD</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<referedAttribute>E59879AE-C06D-6307-CADD-50CE8971F6AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="74FC0FF7-221C-294A-BDAE-7AC599046856" name="Accommodation_Contract PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 11:54:44 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>847E9FCD-0DD3-7BBE-A1BD-AEEE4E65FB72</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

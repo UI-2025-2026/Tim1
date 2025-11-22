@@ -5,6 +5,7 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
 <item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,22 +22,11 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
 <item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Flight_Number" id="EB082273-D6C3-0942-0C1F-4C84CDC4D927">
-<createdBy>Luka</createdBy>
-<createdTime>2025-10-16 17:47:47 UTC</createdTime>
-<ownerDesignName>TouristAgency</ownerDesignName>
-<engineerTo>
-<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Seat_Number" id="DC1698E6-95BD-23CA-3222-37AD63534ECF">
@@ -45,6 +35,7 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
 <item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,24 +48,11 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
 <item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id1" id="2340A700-406E-5F93-E61C-9171183A5F52">
-<createdBy>Luka</createdBy>
-<createdTime>2025-10-16 17:51:52 UTC</createdTime>
-<generatorID>80E0B2EB-8ECB-6B7E-E213-424D9905DA78</generatorID>
-<ownerDesignName>TouristAgency</ownerDesignName>
-<engineerTo>
-<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
-</engineerTo>
-<referedAttribute>F85048A0-60E1-099B-9672-5A5BA262526D</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id2" id="845527FB-7B85-E866-DBAC-790BED54555A">
@@ -84,8 +62,84 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
 <item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
 </engineerTo>
 <referedAttribute>803EE18E-9C05-628D-D257-BFA830DBF408</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="34A612A1-DA64-4BA5-8477-1C55503DE0E4">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 11:34:51 UTC</createdTime>
+<generatorID>81772614-4432-4464-AD3F-CA589258BDCC</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<referedAttribute>F3434FF7-F806-91B4-AB04-ACEADDBF5B0A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="4A7C07BC-6DDF-72CA-A373-4D78F425649E">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 11:36:12 UTC</createdTime>
+<generatorID>9256FBCB-A3AC-70FD-DAEA-B326A30F6D00</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<referedAttribute>51ABC90C-18D5-052B-6917-6F1D46DCA1F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id31" id="484BFE12-3F00-EDC5-666A-583A7754C037">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 11:36:12 UTC</createdTime>
+<generatorID>9256FBCB-A3AC-70FD-DAEA-B326A30F6D00</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<referedAttribute>1380CD9F-19C0-B806-7C43-4284A097B266</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="28571F7A-8A8E-11CC-9640-13674CD8F30A">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 11:36:12 UTC</createdTime>
+<generatorID>9256FBCB-A3AC-70FD-DAEA-B326A30F6D00</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<referedAttribute>884B6269-8E8A-C222-3991-FC35C9EACBE3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id4" id="27393C5B-F854-73CE-FC18-49B5B2FBB45F">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 11:36:12 UTC</createdTime>
+<generatorID>9256FBCB-A3AC-70FD-DAEA-B326A30F6D00</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+</engineerTo>
+<referedAttribute>412707EF-6664-76C6-66CF-6E91C3199D41</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -100,6 +154,7 @@
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="false"/>
+<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

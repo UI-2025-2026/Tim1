@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="679ACBC4-EAAD-B9FC-8012-E206C41CF464" name="Boat_Companies">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:32:14 UTC</createdTime>
+<generatorID>8944BCFB-56E9-8CD9-2798-DB0550B3C9CA</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A3E4BF75-B5BF-2D6A-2583-AF61F298C664">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:32:14 UTC</createdTime>
+<generatorID>2283BE95-2B4D-5D67-F428-EF0376F36B14</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="AD472806-946E-AC5A-DD52-B69730B40067">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:32:14 UTC</createdTime>
+<generatorID>4B8B0F33-E8F7-21A5-81FB-75682C45F5D6</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8D124B7-E142-AF68-C2F8-924858CE6233" name="Boat_Companies_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:32:14 UTC</createdTime>
+<generatorID>414933AC-01B2-B74B-60E2-BD7CF69178D4</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3E4BF75-B5BF-2D6A-2583-AF61F298C664"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FC9C027-F625-F91C-A93D-A435835D90D5" name="Agents">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FC9C027-F625-F91C-A93D-A435835D90D5" name="Employees">
 <createdBy>Luka</createdBy>
 <createdTime>2025-10-16 17:35:06 UTC</createdTime>
 <generatorID>742B2318-12CB-DA3C-05B5-F053D1DEA269</generatorID>
@@ -86,6 +86,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Empolyee_Jobs_id" id="7A91CEA6-32DF-69FC-3063-DF62EBB7BEEB">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>D6991B9B-8DD5-61DD-D123-18255CB46A41</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9130EBD2-11F2-B137-0CC0-1EDDC5525AAC" referredColumn="DE655B19-8ADF-977C-54A3-2CF27E95C610"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="EBA4309F-A1AB-B4B4-586D-960A6CCFF1EA" name="Agents_PK">
@@ -98,6 +113,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E97AB9EE-1E76-C958-E930-A014EAFD1FDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="334D1E78-FE63-826E-3834-F6D5D4E15783" name="Employees_Empolyee_Jobs_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>871F1C50-2496-2ACF-85C6-1F990DA84B17</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A91CEA6-32DF-69FC-3063-DF62EBB7BEEB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

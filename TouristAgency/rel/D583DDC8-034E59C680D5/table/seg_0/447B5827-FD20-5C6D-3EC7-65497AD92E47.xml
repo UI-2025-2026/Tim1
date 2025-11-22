@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="447B5827-FD20-5C6D-3EC7-65497AD92E47" name="Employee_LogIns">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>6C1363B4-9B12-C552-67AA-C2C6D7A8FBDF</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="44F2B6FB-DC80-5064-E14A-229AD897E5AD">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>5545F897-DE35-FCC4-9635-C563E002EE21</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Username" id="C79A2E4F-966A-CAB8-5162-A101DF3CD164">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>4D2A1958-5BE5-8E11-69CF-EC325ABE8A03</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="B5DB7F01-EB1E-4A8B-EC8E-646CB38E282D">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>E5A1E5AB-BBE3-75FB-3517-03F34B2BC0FE</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password_Hash" id="F9669DBE-BD0B-B162-9772-529807D375B0">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>D985F2AD-763F-F001-83E6-A332DD1269EB</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Employees_id" id="19346D47-27DF-82E5-8B1F-A93E113F2A23">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>63E843CF-B652-9259-C0FA-F5E960E6994B</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C69BB7A-14AF-159C-038E-F28E87D969D0" referredColumn="E97AB9EE-1E76-C958-E930-A014EAFD1FDD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0010B689-3131-7F46-C0B7-92790D07CDEF" name="Employee_LogIns_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>7C771603-4097-6DC6-E250-1C77C1AD3317</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44F2B6FB-DC80-5064-E14A-229AD897E5AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC7D2A56-A45B-5D48-C011-27C30D1F2524" name="Employee_LogIns__IDX">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9C91F57F-E114-00C7-D27C-FEC31471AB11</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="19346D47-27DF-82E5-8B1F-A93E113F2A23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1CF83E0-5272-C623-06E7-C50249263B22" name="Employee_LogIns_Employees_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-22 12:20:25 UTC</createdTime>
+<generatorID>9C91F57F-E114-00C7-D27C-FEC31471AB11</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19346D47-27DF-82E5-8B1F-A93E113F2A23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -17,9 +17,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="77C951EC-27B9-0B31-5DE3-949938F369F6" referredColumn="EEC3A64F-8AF7-4BD8-0BB2-89FC0E4AFEDD"/>
-</associations>
 </Column>
 <Column name="Trip_Reservations_id" id="EF68DA50-F90C-2928-50AB-5BE04F1923D2">
 <createdBy>Luka</createdBy>
@@ -94,17 +91,6 @@
 <colUsage columnID="0201E827-AA75-FC08-3952-6D38356F878F"/>
 <colUsage columnID="84307846-D405-C8AF-072F-36B4C8112D03"/>
 <colUsage columnID="F5B7F4C8-CD36-99FE-9CE8-1E7982E1F333"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="C4C8E03F-B3B5-A547-F1EE-BBE3BA66D59D" name="Trip_Transportation_Transportations_FK">
-<createdBy>Luka</createdBy>
-<createdTime>2025-10-16 17:10:52 UTC</createdTime>
-<generatorID>E988A837-7B37-6717-D08A-107401F973FF</generatorID>
-<ownerDesignName>TouristAgency</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="F5DA20C9-0E3A-8E53-34DC-A18E40C98CBE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="6BC860F4-1EDF-A66B-F6E9-3A54D243F06B" name="Trip_Transportation_Trip_Reservations_FK">

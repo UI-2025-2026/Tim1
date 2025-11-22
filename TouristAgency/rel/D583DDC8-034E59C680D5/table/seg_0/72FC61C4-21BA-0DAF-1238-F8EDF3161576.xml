@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id1" id="03CC6527-645C-9BEC-AAFD-5D4E07699E18">
+<Column name="id" id="03CC6527-645C-9BEC-AAFD-5D4E07699E18">
 <createdBy>Luka</createdBy>
 <createdTime>2025-10-16 17:35:06 UTC</createdTime>
 <generatorID>B0DFC32E-05C6-F3AA-74D1-E58975931744</generatorID>
@@ -30,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Email1" id="AECEBEF0-5C4C-E7AC-DBC8-3F5988240467">
+<Column name="Email" id="AECEBEF0-5C4C-E7AC-DBC8-3F5988240467">
 <createdBy>Luka</createdBy>
 <createdTime>2025-10-16 17:35:06 UTC</createdTime>
 <generatorID>D2672118-2C5A-CB22-3CF3-54A265C03D22</generatorID>
@@ -95,7 +95,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BD527165-1BE6-D88E-09B0-8E4AD4D13B10" name="Users_PKv1">
+<ind_PK_UK id="BD527165-1BE6-D88E-09B0-8E4AD4D13B10" name="Users_PKv2">
 <createdBy>Luka</createdBy>
 <createdTime>2025-10-16 17:35:06 UTC</createdTime>
 <generatorID>D3083532-F559-9496-8115-247A9234AC4C</generatorID>
