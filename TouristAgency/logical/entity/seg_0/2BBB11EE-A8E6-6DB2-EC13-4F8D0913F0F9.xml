@@ -4,8 +4,7 @@
 <createdTime>2025-11-22 11:44:05 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
-<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,8 +20,7 @@
 <createdTime>2025-11-22 11:44:10 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
-<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,21 +32,7 @@
 <createdTime>2025-11-22 11:44:18 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
-<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Baggage_Info" id="E0A59BE9-7CBC-C949-B7D7-1F3B059173FB">
-<createdBy>Luka</createdBy>
-<createdTime>2025-11-22 11:44:47 UTC</createdTime>
-<ownerDesignName>TouristAgency</ownerDesignName>
-<engineerTo>
-<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
-<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -61,8 +45,7 @@
 <generatorID>67893953-90D8-33D2-DA73-167E228489DB</generatorID>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
-<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
 </engineerTo>
 <referedAttribute>224DA117-CC93-D134-39C7-AB71E3393107</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,8 +59,7 @@
 <generatorID>3E6EC0E8-24AF-CD15-6877-57001AAAE308</generatorID>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
-<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
 </engineerTo>
 <referedAttribute>51ABC90C-18D5-052B-6917-6F1D46DCA1F6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -91,8 +73,7 @@
 <generatorID>3E6EC0E8-24AF-CD15-6877-57001AAAE308</generatorID>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
-<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
 </engineerTo>
 <referedAttribute>1380CD9F-19C0-B806-7C43-4284A097B266</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -106,8 +87,7 @@
 <generatorID>3E6EC0E8-24AF-CD15-6877-57001AAAE308</generatorID>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
-<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
 </engineerTo>
 <referedAttribute>884B6269-8E8A-C222-3991-FC35C9EACBE3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -121,8 +101,7 @@
 <generatorID>3E6EC0E8-24AF-CD15-6877-57001AAAE308</generatorID>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
-<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
 </engineerTo>
 <referedAttribute>412707EF-6664-76C6-66CF-6E91C3199D41</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -136,8 +115,7 @@
 <generatorID>74277857-DB51-1062-A1E5-CE1B45DD7641</generatorID>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
-<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="true"/>
+<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
 </engineerTo>
 <referedAttribute>803EE18E-9C05-628D-D257-BFA830DBF408</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -153,8 +131,7 @@
 <ownerDesignName>TouristAgency</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="D583DDC8-8754-02E9-C16A-034E59C680D5" value="true"/>
-<item key="A40CDD70-DD02-DCC5-B8F9-DB846194C2E4" value="false"/>
+<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

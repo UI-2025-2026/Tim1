@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1AA7588A-7ADA-73AC-D874-92F720ACBD06" name="Contract_Prices">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 11:48:02 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="6640A0FC-7853-DCAB-F632-AB72793B474B">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 11:48:20 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="10DC58B0-E3E2-BA01-6DD3-D2222F4B5786">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 11:48:35 UTC</createdTime>
+<generatorID>5DF3AB81-D604-875E-B9B7-C50494847F7C</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
+</engineerTo>
+<referedAttribute>4A79C060-D5F5-AA87-7801-6F12991255A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="1883C80B-9E47-9957-5458-AC390A193DCA">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 11:48:39 UTC</createdTime>
+<generatorID>5AE746AB-7092-AE0A-3069-6F97F2D0BEFE</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
+</engineerTo>
+<referedAttribute>847E9FCD-0DD3-7BBE-A1BD-AEEE4E65FB72</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BAF05700-23E9-AC53-AF0C-ADAC801CB47A" name="Contract_Prices PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 11:48:26 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6640A0FC-7853-DCAB-F632-AB72793B474B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

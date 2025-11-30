@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA6A5166-99A1-EF5D-C9B8-A583209E37B3" name="Currencies">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:11:57 UTC</createdTime>
+<generatorID>C1B42734-F0B7-7652-35ED-9229A4DF465F</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BDF10A1D-D5AA-763C-33EF-CD91E10D01FE">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:11:57 UTC</createdTime>
+<generatorID>C78CFBEC-1415-53C4-AC17-856B15AEC9E6</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="93229E44-CE64-65B7-E8F8-B5252CD6A6F0">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:11:57 UTC</createdTime>
+<generatorID>2D9F3B98-9E6E-F644-3D86-B9C89EFB2ACC</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Short_Name" id="67E8DFF1-8CBB-87E3-24E1-D5AC32C92CA0">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:11:57 UTC</createdTime>
+<generatorID>724A936A-B3FE-498B-0B91-018B596444F7</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54CCEB1E-0078-3687-05F4-6A8B389B8206" name="Currencies_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:11:57 UTC</createdTime>
+<generatorID>D0F1EEFC-DC74-9239-00AD-58E983D92D11</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDF10A1D-D5AA-763C-33EF-CD91E10D01FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

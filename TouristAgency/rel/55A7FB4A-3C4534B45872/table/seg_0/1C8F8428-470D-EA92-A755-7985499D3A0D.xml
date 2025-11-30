@@ -1,0 +1,214 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C8F8428-470D-EA92-A755-7985499D3A0D" name="Baggage_Types">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>418A3137-ADB2-670B-463C-17DE5F9E19A1</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="57CB4C90-D2F5-35DB-5573-3879146F7F49">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>C70529B3-CF05-88AE-DC17-D42808E0BBC2</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="420C3160-D974-2D4C-075F-BBEFEE13A81A">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>F306881A-A7D7-2BBA-E078-666C7F7E60A7</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Max_Dimensions" id="B8597D30-E714-452B-9FFD-5FAEF6B3F836">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>CB7F3BE3-9A47-DA51-4050-59B650F22E15</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Max_Weight" id="3EB3569F-BCE1-95CF-5CF1-3BA90AC948AD">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>5C40A243-F9C1-0BAB-CA48-D62AD962BE37</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Special_Category" id="2C612538-0122-552C-0D89-CDE80C259F7D">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>5D462DD9-AA0A-F5BB-0333-AD4D20392526</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Boat_Companies_id" id="1EA37DD9-2985-E2BC-4B1E-8C147CB07E91">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>C874BC1C-CFEA-0455-1A4B-058720EAC9D5</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="910A504E-9587-4362-0C59-1E9B0B53023D" referredColumn="B1777109-005C-A118-DAA3-ABF186609C47"/>
+</associations>
+</Column>
+<Column name="Railway_Companies_id" id="4C4E6888-7806-AE4A-29C6-A792E9E11879">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>C3BC8AFC-A3C3-854B-D7EB-48AE659902F6</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64D2F4E1-1223-92AB-F1A2-EBF117EA48CC" referredColumn="A49AE2A8-06A0-775C-FE45-38C13D4F3BD8"/>
+</associations>
+</Column>
+<Column name="Taxi_Companies_id" id="E41485CA-5605-F8DE-830C-4ACB62ED4072">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>9D596BD8-520B-F138-B0E1-039616C96BEF</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1DC5703-E2AC-E8AB-B3CF-892A1BBE0B4B" referredColumn="A9834973-96FD-780E-0D8E-3F9B1DBB9B12"/>
+</associations>
+</Column>
+<Column name="Bus_Companies_id" id="40C066C3-855B-97B3-23A5-006856F482DF">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>35B7AB37-7480-6DF6-C04E-0B56C4C7509C</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31AB1048-26AC-7A97-9CCE-B4497DCB3A6C" referredColumn="F616C8C9-C02A-0021-2885-24980AF7BBBD"/>
+</associations>
+</Column>
+<Column name="Airlines_id" id="243AE4BA-6743-D761-E1C2-9F24EDE5E05F">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>772DDD46-7B76-82B3-8DF8-AED0F53063FB</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAA64027-E68A-22B4-DD64-91424B2083C0" referredColumn="9BBB6A59-6308-FF1C-5BE7-59BD4F881CA8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="480BE80C-B1BF-5051-3FC3-DF25FDD70B27" name="Baggage_Types_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>5B885156-7367-01C8-2114-601F97AA167C</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57CB4C90-D2F5-35DB-5573-3879146F7F49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACB933A7-D4C8-ADC9-F82A-8DC565AC46B2" name="Baggage_Types_Boat_Companies_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>E3BC413A-60B4-348E-E7F1-BBBC438F257E</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EA37DD9-2985-E2BC-4B1E-8C147CB07E91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F94B4785-8813-E85C-10A5-3190F12D42C4" name="Baggage_Types_Railway_Companies_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>7C512D85-77E4-BCD1-7F71-048DFD2A73E0</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C4E6888-7806-AE4A-29C6-A792E9E11879"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93E64D5C-23B3-6D96-F46B-2016C8CDF79D" name="Baggage_Types_Taxi_Companies_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>36F3EE59-C9A7-5B49-A6D8-F8E456C7E7C4</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E41485CA-5605-F8DE-830C-4ACB62ED4072"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38064B32-EBD0-62D2-0CD0-864E19A0DF7D" name="Baggage_Types_Bus_Companies_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>EF7CA5FC-115B-0F57-802C-AE477A938094</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40C066C3-855B-97B3-23A5-006856F482DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4346454D-62D4-8197-F4A8-07B6B564E014" name="Baggage_Types_Airlines_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>D4704D8D-5D9B-8ACA-1B24-825C03BC9E69</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="243AE4BA-6743-D761-E1C2-9F24EDE5E05F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

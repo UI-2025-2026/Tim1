@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA5EC340-E432-C5C7-C54D-FFC7CB1B7705" name="Transactions">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>54B54098-5313-1160-4300-07CD8AD5B0F2</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C2A91C67-1055-1B4B-DD06-280F91C45FB0">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>E4FAE866-8782-4336-7029-1A36F4315F1A</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Amount" id="1EFBF6EB-4020-1C15-8879-9C569A123656">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>824E42CB-90C1-6D5B-B86B-F91E6337929F</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="1FDFBDED-2F61-6233-D8DB-88D912D9D53C">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>756A88AA-6158-B420-037D-EDCF641E5905</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Payments_id" id="E48E74D2-A640-B3C7-307D-FEC263D34D30">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>34825575-8AA2-1D23-28B3-617489B4E4C4</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B7AB5E0-6CEC-7F8E-B42D-2727525B5CBE" referredColumn="C3968ECC-E4B5-5C8D-BDE9-615B54E3A3BA"/>
+</associations>
+</Column>
+<Column name="Transaction_Types_id" id="88BFB0DB-162B-1920-BBA8-726C0552BE15">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>A15AA0FA-8880-0306-4AD9-95ECDC3709BE</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA71CEA1-4D48-C92F-FBBE-71E735C42DC5" referredColumn="FBA20D87-A894-7A5A-2565-E5606AC407C4"/>
+</associations>
+</Column>
+<Column name="Currencies_id" id="559D4542-5F31-514A-00C8-1E50C661425A">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:11:57 UTC</createdTime>
+<generatorID>765D8252-4BFB-56CB-3883-AE398872EA72</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34F8E362-C9C3-9BB2-AB2C-58488746535C" referredColumn="BDF10A1D-D5AA-763C-33EF-CD91E10D01FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB1E52F8-B1BB-BE7B-3F5D-09C888A09582" name="Transactions_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>ABF685F2-EB0A-8B04-8FC9-C0DBF0F3349B</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2A91C67-1055-1B4B-DD06-280F91C45FB0"/>
+<colUsage columnID="E48E74D2-A640-B3C7-307D-FEC263D34D30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F8C8112-708C-F864-6329-044CE650B94C" name="Transactions_Payments_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>786D13FF-D189-E5F5-D18C-CD343BD33FF7</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E48E74D2-A640-B3C7-307D-FEC263D34D30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D31ECB6D-C697-C149-C045-95BA5F257E2A" name="Transactions_Transaction_Types_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:07:08 UTC</createdTime>
+<generatorID>6B5DFFF1-0ED5-F283-A690-0B1C176E3D8A</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88BFB0DB-162B-1920-BBA8-726C0552BE15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A81F335C-DA44-5BC8-8B1F-2838C2E47AB2" name="Transactions_Currencies_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-11-30 12:11:57 UTC</createdTime>
+<generatorID>485BBB8C-6778-49B8-F841-718F0DFDA722</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="559D4542-5F31-514A-00C8-1E50C661425A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
