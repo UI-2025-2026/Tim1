@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="099FB082-2D1C-EC26-5354-5E141F98197F" name="Employee_Permissions">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>E8B39286-1F3B-9042-73A0-CEE4D49BB2EA</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A63BC62D-2948-F84C-FA85-B316B286FBDD">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>23EB441D-688F-D4CF-87AB-35716137F0A3</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D60205B-5207-BCF1-41C0-35284226CC2C" referredColumn="4A0B6B89-4F7C-EA51-66B5-782CB73A1C69"/>
+</associations>
+</Column>
+<Column name="id1" id="57BF451A-71DB-E22F-9508-75675252473B">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>19F557A8-9EE4-A382-31AA-D9BD7DA3B15D</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C482B9CD-9EE1-D7E1-273D-A27D4CA243B8" referredColumn="E7856A70-C419-8F4B-33AF-13D28BC9F778"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="673F907F-C69F-25D2-7ED5-395D52B5C7A6" name="Employee_Permissions_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>03A470C3-34BE-84CC-18CD-39FA4534049B</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A63BC62D-2948-F84C-FA85-B316B286FBDD"/>
+<colUsage columnID="57BF451A-71DB-E22F-9508-75675252473B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79A1AE9D-87AB-7131-D903-3256868C8217" name="Employee_Permissions_Employee_LogIns_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>72ABA79D-DBCA-6ABF-EF85-BA2F060033D9</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A63BC62D-2948-F84C-FA85-B316B286FBDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AE46502-12EE-3F5B-CD01-724AF792C913" name="Employee_Permissions_Permissions_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>CC1F5940-4247-A891-C1B8-9678DBED97F4</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57BF451A-71DB-E22F-9508-75675252473B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

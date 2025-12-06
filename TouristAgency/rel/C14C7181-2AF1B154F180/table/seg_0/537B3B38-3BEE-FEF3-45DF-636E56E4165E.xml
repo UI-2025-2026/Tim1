@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="537B3B38-3BEE-FEF3-45DF-636E56E4165E" name="Flight_Trips">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>B0E433E0-BB5A-5EB3-F541-0FF4010F7037</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F832771C-BF28-25EE-5FA5-D43BA700C077">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>F3434FF7-F806-91B4-AB04-ACEADDBF5B0A</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Flight_Number" id="154C5F68-F4CF-C9FD-F906-0FDDD5987CD3">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>291ED56E-74AA-E880-F917-2C1DD17EF37B</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departure_Time" id="98E6F3DF-FB51-4AD8-A6C3-E49E7E500D4F">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>8778006D-DAD0-91F6-7A27-0E0DFB4C838C</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Arrival_Time" id="6A41FDCA-2C75-C821-AE89-57CEEBCC2439">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>C7990F13-05EE-B89C-8812-A0A35FB930FC</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id1" id="3C3CED80-3B40-4AF6-48EA-324131EC6966">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>FBA54E50-93D9-D9C5-06C3-7D2872EC02F5</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A465D527-8B57-6364-8337-5AA9B5425F23" referredColumn="617C4587-D102-CC28-9642-2E450A3E7968"/>
+</associations>
+</Column>
+<Column name="id2" id="9ED74547-40BA-B5B5-58D5-0ABF2AEA2BB1">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>205562B7-AC97-AD32-5638-C4359829901A</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2404929-AA86-BD9F-F590-6A3E3B5D3F56" referredColumn="617C4587-D102-CC28-9642-2E450A3E7968"/>
+</associations>
+</Column>
+<Column name="id3" id="A2F62455-33C4-3780-335B-BBE5C3907BF9">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>C55C6A3E-ECC4-1471-EB94-9EA082D592E6</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A261705A-24E2-6295-8605-856CB2B66449" referredColumn="D01C5583-0E86-0EC9-0FA0-276E141A2341"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77A40C42-0B57-C39B-11AF-1742C8496CA2" name="Flight_Trips_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>437FCFD7-0050-F657-9F3E-68486C8F7474</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F832771C-BF28-25EE-5FA5-D43BA700C077"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90D6D158-5A37-B6FF-E19A-14AB90F1F734" name="Flight_Trips_Airports_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>5274D84F-9D38-D4AA-13A6-23FA75123ECD</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C3CED80-3B40-4AF6-48EA-324131EC6966"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07F50226-2CB9-FDAF-2ECD-6B44576FB527" name="Flight_Trips_Airports_FKv2">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>E0E92DD7-7420-B9A6-A70B-F5215A241E94</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ED74547-40BA-B5B5-58D5-0ABF2AEA2BB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0192CC7D-BD89-5FCE-EDEF-703360445160" name="Flight_Trips_Airlines_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>EE675E8E-6F85-2983-3A60-EA0AF1206E73</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2F62455-33C4-3780-335B-BBE5C3907BF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

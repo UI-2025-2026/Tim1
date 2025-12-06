@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="919F43FF-BF03-167D-8808-827C1ED02236" name="Flight_Baggage_Info">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>C771A639-D092-390D-DDB1-C443A6365321</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="188AE384-E162-17B4-3B62-B479538AFFA6">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>D3A913A7-B241-6FF4-68CF-D67DCE5E0EC5</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id1" id="4219678C-DE74-365D-CCC8-DBEB392A5030">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>62EAE95F-8E40-BF84-BA1E-417501353AAF</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5BCCA2A-D342-BB08-04B6-3E3714283053" referredColumn="B563C1E4-0150-0D13-997E-F57369888F1F"/>
+</associations>
+</Column>
+<Column name="id2" id="2136023A-76BA-8D0B-B4B3-A30D78D2DC5A">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>8F002CF7-F45F-2752-1A39-286B3F5DF388</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id3" id="42174BCB-1849-C20A-DD67-058F2F92B6C2">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>8FD849B2-3B5F-5C35-0DC1-DDAC242B8E6F</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54F45A70-1EC0-B5A9-B78D-364959D5BF0D" referredColumn="8E5DF96E-C4E0-E64A-9E01-77B289347B8C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEDA6E18-F9C1-33AA-5E55-EF2237F77485" name="Flight_Baggage_Info_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>FBA784D7-1DE7-EB0D-52D4-D5907D87D203</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="188AE384-E162-17B4-3B62-B479538AFFA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6B75978-52A3-5EC9-C46A-8AFB0CA5B17D" name="Flight_Baggage_Info_Flight_Baggage_Types_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>2BE9826A-5374-C3A6-1A47-1C5AE0378CB6</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4219678C-DE74-365D-CCC8-DBEB392A5030"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EC58F61-5437-5160-C17C-495301DC1130" name="Flight_Baggage_Info_Flight_Tickets_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-06 12:10:16 UTC</createdTime>
+<generatorID>5B503FCC-0FA5-85AE-9861-219958A4C497</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42174BCB-1849-C20A-DD67-058F2F92B6C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
