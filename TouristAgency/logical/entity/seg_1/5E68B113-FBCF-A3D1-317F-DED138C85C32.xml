@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="5E68B113-FBCF-A3D1-317F-DED138C85C32" name="Cruise_Trip">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:09:51 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="420D72AA-21E6-830A-1191-B6DF500D6FD9">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:09:57 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Departure_Time" id="5C9AC3D0-53A4-77AE-3549-50757835FFEC">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:10:04 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Arrival_Time" id="C59F0565-A7B2-0C1A-1A53-69490E9D34AC">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:10:22 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Boat_Number" id="74E16ECF-9B47-25D9-7946-E9FAFC046954">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:10:41 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="FA89C131-97B8-F080-7B37-05CC79486ED1">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:11:38 UTC</createdTime>
+<generatorID>C556DC24-C4B6-F5B8-F17C-C0D888731692</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<referedAttribute>0DEAD15F-8293-5572-4F6E-22DDB4918874</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="01DE40B1-3B68-F64A-2EF7-768B2A4EB1DC">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:11:43 UTC</createdTime>
+<generatorID>D2D75597-2F68-E375-647E-847410319EAF</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<referedAttribute>0DEAD15F-8293-5572-4F6E-22DDB4918874</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="18C9533D-B8ED-0029-7583-68FE62FC79E9">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:11:49 UTC</createdTime>
+<generatorID>CD49105D-E7CF-97B8-94AB-2155D8BE4BC7</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<referedAttribute>2283BE95-2B4D-5D67-F428-EF0376F36B14</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id4" id="97E0BE30-289C-20BB-0BFC-113F86C80BF6">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:12:53 UTC</createdTime>
+<generatorID>10B89E5F-2105-D6AE-17DE-B2234B061210</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<referedAttribute>0D0FF60D-1F91-FE71-9B38-3FB98F570476</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7970B4CF-8E65-3DDA-4DD8-AF47FFF05F1A" name="Cruise_Trip PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:10:20 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>420D72AA-21E6-830A-1191-B6DF500D6FD9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

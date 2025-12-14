@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="C588FA54-9E6B-E3DF-4ADE-77844B7B4FEF" name="Customer_Types">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 12:48:51 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="16D931DC-506D-5762-5D97-F7E9F03343B8">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 12:49:11 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="07E08EFF-32BB-768B-8921-BCFAE7187DD7">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 12:49:20 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12EE5219-25DE-C2A3-8599-872D2E11CE03" name="Customer_Types PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 12:49:19 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>16D931DC-506D-5762-5D97-F7E9F03343B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1A00BC6-D77F-9224-AF8E-02614F703D1B" name="Acommodation_Unit_Prices_Features">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>9F670848-AD25-E209-95FD-6ECF15401346</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A770F130-59C0-D7EE-FEE5-251C8DFA6146">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>6379AF1D-B60C-FDBD-7EE8-64F28A67F6C3</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B34211AB-7776-B87D-A536-509264B34351" referredColumn="5B5D26CC-4289-7611-1395-4B033D7CD4A4"/>
+</associations>
+</Column>
+<Column name="id1" id="881704B3-85FC-0A10-4E27-DFBA09BC4839">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>0F4E162F-B53D-0DE0-08BA-24491728AF48</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62AE388B-13DC-FA3A-2194-9A57A544F44A" referredColumn="8CEF5DFD-EF01-1CF8-C23E-574DD586CB84"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32DD304F-552C-CB9F-17F5-6FAC2B031FA1" name="Acommodation_Unit_Prices_Features_Acommodation_Special_Features_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>2023A1BC-718D-65C3-AEB9-79FC6B6E253C</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A770F130-59C0-D7EE-FEE5-251C8DFA6146"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A65E07C-2DFB-0310-E399-74C271230817" name="Acommodation_Unit_Prices_Features_Acommodation_Unit_Prices_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>4076090C-3CD9-1236-A2BC-C39A0488FA1A</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="881704B3-85FC-0A10-4E27-DFBA09BC4839"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

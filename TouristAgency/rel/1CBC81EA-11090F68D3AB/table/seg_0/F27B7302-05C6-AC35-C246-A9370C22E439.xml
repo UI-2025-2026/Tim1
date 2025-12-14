@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F27B7302-05C6-AC35-C246-A9370C22E439" name="Bus_Baggage_Info">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>11FFA734-33DA-B8D0-2139-8B083B8F5DB7</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5CBA2746-6601-DF20-25B0-34565D3219B2">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>56A2855F-3F6D-E71A-65B6-3BF46695B785</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id1" id="FB2EB739-FD08-162C-C210-741DC2B6EBC2">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>88D8EC70-552D-98C4-3254-E992D1A8885F</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1672228F-3692-9AFA-3D9A-94A7451F9AA4" referredColumn="E331ABEC-FC2E-B4EB-DF77-9B560489A48E"/>
+</associations>
+</Column>
+<Column name="id2" id="D028C671-381C-039C-D038-80754595DC93">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>F0D033F1-E838-EC45-B68C-1E7DE74CED6C</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id3" id="096BB10A-DA3B-641F-6EA7-20A9B2E64BAF">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>811A8A63-4307-0518-1314-2B2598127ABE</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="450A66F5-E0A2-2487-707C-9A811DD6C8CA" referredColumn="C4030A64-8DFA-DDDA-6784-C0428FB94D8F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="800C0DCC-5488-B82F-E8C9-6CA4B2BD5CD4" name="Bus_Baggage_Info_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>6E156237-109F-DA65-13D2-B1639D2603D4</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CBA2746-6601-DF20-25B0-34565D3219B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE30B5D5-F20A-91D1-CDFC-89C295BA5A3A" name="Bus_Baggage_Info_Bus_Baggage_Types_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>0C9375E0-97B4-3953-48B7-D33C743CA322</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB2EB739-FD08-162C-C210-741DC2B6EBC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCD55119-EDC8-2129-5C07-A9D3E492916C" name="Bus_Baggage_Info_Bus_Tickets_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>66597D3C-461F-A229-643E-A23D9295D193</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="096BB10A-DA3B-641F-6EA7-20A9B2E64BAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

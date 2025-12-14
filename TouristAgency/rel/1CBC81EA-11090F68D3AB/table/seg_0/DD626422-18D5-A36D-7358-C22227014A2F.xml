@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD626422-18D5-A36D-7358-C22227014A2F" name="Acommodation_Reservations_Invoices">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>849530EC-E4EA-F13E-B2A1-894F53289727</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="4BD81736-F1EF-01C1-5E71-1FF3D21723C8">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>E2DCC31D-6AF2-C8C2-48BD-FA1DF4ED1916</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A613538C-7E43-D0E5-D14F-BB5B1F60F63E" referredColumn="39BC81F7-AFB9-9BE4-6CB2-985EBD957A32"/>
+</associations>
+</Column>
+<Column name="id1" id="E4BB240B-0C86-E0C0-0854-7BFAF43638FE">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>B7DA466A-1266-A60A-7707-396C56B095E8</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0096E850-D99A-3743-B944-B9529FD08003" referredColumn="715EE467-689E-7B9F-58C7-0907602EDD15"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="390584CF-0956-455D-9DAE-BB94341E081A" name="Acommodation_Reservations_Invoices_Accommodation_Reservations_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>FFB2D565-27D5-3E44-5220-AE08C2EF8FCE</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BD81736-F1EF-01C1-5E71-1FF3D21723C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40DEC82F-640B-9B80-C2D8-1CCFF23DFE92" name="Acommodation_Reservations_Invoices_Acommodation_Invoices_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>A7591E46-5A77-A71B-BDA6-6DB60492270D</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4BB240B-0C86-E0C0-0854-7BFAF43638FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

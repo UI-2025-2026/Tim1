@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="535B7842-6B47-ACAA-004B-FD6735615C31" name="Acommodation_Special_Features">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>7EBE7307-277C-25E6-D9C9-B279751D5814</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5B5D26CC-4289-7611-1395-4B033D7CD4A4">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>E242B0D2-5382-4ADE-ECD6-C11E5CD49E56</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="DF3CB7AA-7772-E969-5C2E-BAEC75ECB42C">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>879BB626-3F8B-B147-DB1F-AC728131751F</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id1" id="024AF449-1FFB-6D3B-6618-2BF90983795D">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>D10A7546-445E-65AE-C9E9-EC9B6FB344E5</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C439030F-D2BD-D4E5-D46A-DF363666372A" referredColumn="AAD69E33-80E3-A2CF-0E29-A1E4B8247D33"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DA29F6C-ACF5-2DFB-A079-019A56A802AB" name="Acommodation_Special_Features_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>B67DFBAB-468B-83A4-A2FC-7BF4FFE90977</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B5D26CC-4289-7611-1395-4B033D7CD4A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0A27FC6-B8E5-7D7A-3FDA-26D048A30E2C" name="Acommodation_Special_Features_Accommodations_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>0673A842-2B6E-AF83-2152-FEC907847EB3</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="024AF449-1FFB-6D3B-6618-2BF90983795D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

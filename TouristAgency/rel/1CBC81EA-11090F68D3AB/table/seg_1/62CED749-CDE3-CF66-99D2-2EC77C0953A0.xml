@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="62CED749-CDE3-CF66-99D2-2EC77C0953A0" name="Trips_Accommodations">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Trip_Arrangement_id" id="E6EA990C-60E4-AD4A-24F6-04C6AE1F9C97">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E42973C3-9F41-8E62-1F5D-DFFF28E962C6" referredColumn="D500637A-DDBE-BD80-4F55-4A3490670B70"/>
+</associations>
+</Column>
+<Column name="Trip_Arrangement_id1" id="7242C379-E490-D4FB-0174-71623CCD513E">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E42973C3-9F41-8E62-1F5D-DFFF28E962C6" referredColumn="464E0081-66F3-98D6-20A3-8C8B2C4EE136"/>
+</associations>
+</Column>
+<Column name="Accommodations_id" id="3017A7FE-1BE5-42E6-2F86-E0F49A1DDA56">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C856CF1-017E-7EE3-0A51-C49CC49892E1" referredColumn="AAD69E33-80E3-A2CF-0E29-A1E4B8247D33"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DFC7009-830D-74BE-823F-ACC56BD407E6" name="Trips_Accommodations_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6EA990C-60E4-AD4A-24F6-04C6AE1F9C97"/>
+<colUsage columnID="7242C379-E490-D4FB-0174-71623CCD513E"/>
+<colUsage columnID="3017A7FE-1BE5-42E6-2F86-E0F49A1DDA56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63A0DDA5-2C9A-118E-25EA-DA6880B3015C" name="Trips_Accommodations_Trip_Arrangement_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>D470BD78-6307-7673-EA8A-002F136A9948</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6EA990C-60E4-AD4A-24F6-04C6AE1F9C97"/>
+<colUsage columnID="7242C379-E490-D4FB-0174-71623CCD513E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCCCF056-F262-1064-BF33-724FDA6138B1" name="Trips_Accommodations_Accommodations_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>D470BD78-6307-7673-EA8A-002F136A9948</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3017A7FE-1BE5-42E6-2F86-E0F49A1DDA56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

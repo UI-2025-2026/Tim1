@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB12CA8A-B0CC-C8F5-E296-70F1217CE8EA" name="Transactions">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>54B54098-5313-1160-4300-07CD8AD5B0F2</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7098CA33-8949-03C6-21D7-C67C5EAC0D90">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>E4FAE866-8782-4336-7029-1A36F4315F1A</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Amount" id="B32D8C2D-98AA-27E1-CC81-B26105FD98F4">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>824E42CB-90C1-6D5B-B86B-F91E6337929F</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="DB760530-17F9-1FD2-4950-34337E5AB2F6">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>756A88AA-6158-B420-037D-EDCF641E5905</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id1" id="1F3AB6D9-C8DA-10B6-84B3-D5D19137B4B0">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>34825575-8AA2-1D23-28B3-617489B4E4C4</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DA87B0D-DD49-FEC1-29EB-7218FCC93674" referredColumn="E2A820EB-D13A-4CD0-B1BD-7C5B7A9367BC"/>
+</associations>
+</Column>
+<Column name="id2" id="4349601E-CCA7-C1B9-3190-BD03CA40E718">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>A15AA0FA-8880-0306-4AD9-95ECDC3709BE</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23D636FE-289D-357B-66F1-4DF48A7C69E4" referredColumn="A46E820A-0B2D-240B-BC05-1ADE1080B591"/>
+</associations>
+</Column>
+<Column name="id3" id="416EB966-D159-D1A2-B5B4-EAECFD47B61D">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>765D8252-4BFB-56CB-3883-AE398872EA72</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F4C41E6-F212-4C50-F11C-C492005CB266" referredColumn="9E170CEE-FAFC-6661-6831-F43E0E73A684"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE79774D-ADC5-2C46-D0FA-5E3897C4D4D1" name="Transactions_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>ABF685F2-EB0A-8B04-8FC9-C0DBF0F3349B</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7098CA33-8949-03C6-21D7-C67C5EAC0D90"/>
+<colUsage columnID="1F3AB6D9-C8DA-10B6-84B3-D5D19137B4B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EDA3652-F0FC-058E-51D1-8830229539D5" name="Transactions_Payments_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>786D13FF-D189-E5F5-D18C-CD343BD33FF7</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F3AB6D9-C8DA-10B6-84B3-D5D19137B4B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB3BF84C-6143-AB9E-9F24-3B015B29F297" name="Transactions_Currencies_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>485BBB8C-6778-49B8-F841-718F0DFDA722</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="416EB966-D159-D1A2-B5B4-EAECFD47B61D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91BEAB17-55B9-A89F-18A4-B03A2788F8E9" name="Transactions_Transaction_Types_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>6B5DFFF1-0ED5-F283-A690-0B1C176E3D8A</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4349601E-CCA7-C1B9-3190-BD03CA40E718"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="69D85FB0-483F-0A5B-BA9E-3FD596C6A129" name="Acommodation_Invoices_Transactions">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:02:37 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="B8F4988A-7597-EB17-C915-1667BFA1DC25">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:02:54 UTC</createdTime>
+<generatorID>79F1F140-4FE7-E49D-7194-7A0DA50E1E31</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<referedAttribute>8787E208-762A-12F5-F8C6-6A7594A6C17B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="27573640-6BC5-D660-8CA5-5C0255E2F05F">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:03:00 UTC</createdTime>
+<generatorID>4EA4CCAF-360C-DBAE-65AA-378D0BC23AA8</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<referedAttribute>E23EB172-CD8D-FDFA-50BD-A7EFC846E0B8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

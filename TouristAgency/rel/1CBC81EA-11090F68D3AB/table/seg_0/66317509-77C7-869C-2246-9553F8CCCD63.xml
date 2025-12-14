@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66317509-77C7-869C-2246-9553F8CCCD63" name="Contact_Person_Accommodation">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Contact_Person_id" id="67C980A9-1116-5C02-8FDF-630F878EC8FF">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="955AACEE-0964-F5D9-EFF4-C691DEBB9193" referredColumn="FF77C179-1725-A80E-22F5-3D420C30F4DE"/>
+</associations>
+</Column>
+<Column name="Contact_Person_Surname" id="0221646F-CF14-EC2A-4353-546DD6777EEF">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="955AACEE-0964-F5D9-EFF4-C691DEBB9193" referredColumn="DE082318-57E8-F4F1-1B0B-01B76F8921B4"/>
+</associations>
+</Column>
+<Column name="Accommodations_id" id="E59DB006-BB7D-8DBE-1E63-B57E2C3F787D">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1C44282-B57B-0FD5-DE4E-A62980A2DD8C" referredColumn="AAD69E33-80E3-A2CF-0E29-A1E4B8247D33"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA2D6F9A-0F81-88AD-C177-56A997F3E1C9" name="Contact_Person_Accommodation_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67C980A9-1116-5C02-8FDF-630F878EC8FF"/>
+<colUsage columnID="0221646F-CF14-EC2A-4353-546DD6777EEF"/>
+<colUsage columnID="E59DB006-BB7D-8DBE-1E63-B57E2C3F787D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8ADB8A21-2950-6EBF-08CA-41BF5B7DAA17" name="Contact_Person_Accommodation_Contact_Person_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>DE5ECCA8-3CF1-4648-19DB-634B0A754023</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67C980A9-1116-5C02-8FDF-630F878EC8FF"/>
+<colUsage columnID="0221646F-CF14-EC2A-4353-546DD6777EEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3D71D20-069D-B782-9D58-C1BC5AE1CDE3" name="Contact_Person_Accommodation_Accommodations_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>DE5ECCA8-3CF1-4648-19DB-634B0A754023</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E59DB006-BB7D-8DBE-1E63-B57E2C3F787D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

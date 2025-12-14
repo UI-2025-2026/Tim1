@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAB7CFB8-A905-01A4-4FAE-9E233DB978D4" name="Acommodation_Unit_Prices_Customer_Types">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>8D1D5C0F-0E50-523A-0353-CDB1FFE8C201</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Number_Of_Customers" id="6EF97431-9537-E57F-048E-AF25E95FDEF8">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>05F831E2-D52D-7218-8D58-6B635D8F5295</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id1" id="FC8182BF-2A35-329B-37B6-AEAF1C8A579A">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>6578768B-C181-E887-1F5B-2FEA75E7A881</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1C038C5-E32C-91CB-AFB9-9EA345D27B6F" referredColumn="8CEF5DFD-EF01-1CF8-C23E-574DD586CB84"/>
+</associations>
+</Column>
+<Column name="id" id="DD02257E-BBFC-F6F1-96F3-56BB0640E66F">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>FFF56124-105E-EDBC-BD97-97F7D9F5A38C</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E33738D-D741-0DBC-3BA2-2187D19F65DB" referredColumn="C5DEB6A0-FE8E-910D-3E38-DB9DB44DF6D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1362F5B-392A-D699-8EAB-2BE4C7F06096" name="Acommodation_Unit_Prices_Customer_Types_PK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>3CC90755-3245-23FF-D718-C935377E8221</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="FDE3F17A-8DFF-6FB7-1FC2-7525E69B6186" name="Acommodation_Unit_Prices_Customer_Types_Acommodation_Unit_Prices_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>3E07F860-7990-95CD-6167-99418064B25C</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC8182BF-2A35-329B-37B6-AEAF1C8A579A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BB9B432-6F90-0D9B-D161-1B9CA50E27BF" name="Acommodation_Unit_Prices_Customer_Types_Customer_Types_FK">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 13:17:13 UTC</createdTime>
+<generatorID>F581D452-6CD5-01CA-7B85-20FEF9E981D3</generatorID>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD02257E-BBFC-F6F1-96F3-56BB0640E66F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

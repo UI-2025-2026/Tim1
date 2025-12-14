@@ -4,7 +4,7 @@
 <createdTime>2025-11-30 11:45:50 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2025-11-30 11:46:21 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2025-11-30 11:46:30 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,7 +44,7 @@
 <createdTime>2025-11-30 11:46:40 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -56,7 +56,7 @@
 <createdTime>2025-11-30 11:46:48 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -69,7 +69,7 @@
 <generatorID>DFF98B4C-8735-2957-DBF9-16FE1C0AAA99</generatorID>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
 </engineerTo>
 <referedAttribute>3FD65D84-01D4-F8A6-4B5F-0A4C29CF6009</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -83,12 +83,36 @@
 <generatorID>BAF4E078-1588-8615-2089-854AF4DBEE4F</generatorID>
 <ownerDesignName>TouristAgency</ownerDesignName>
 <engineerTo>
-<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="true"/>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
 </engineerTo>
 <referedAttribute>C78CFBEC-1415-53C4-AC17-856B15AEC9E6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Reservation_From" id="73821623-5340-6AA5-2835-114ECC79B684">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 12:36:05 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Reservation_To" id="A0B3040F-35B1-7FF8-3223-B3C6B723669D">
+<createdBy>Luka</createdBy>
+<createdTime>2025-12-14 12:36:22 UTC</createdTime>
+<ownerDesignName>TouristAgency</ownerDesignName>
+<engineerTo>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -97,9 +121,8 @@
 <createdBy>Luka</createdBy>
 <createdTime>2025-11-30 11:46:29 UTC</createdTime>
 <ownerDesignName>TouristAgency</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="55A7FB4A-D09C-E641-0860-3C4534B45872" value="false"/>
+<item key="1CBC81EA-75BB-E7F4-AD0D-11090F68D3AB" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
